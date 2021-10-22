@@ -1,0 +1,18 @@
+JS Object 
+-------------
+What is Js Object?
+
+---group of key:value pairs as one entity 
+---group of properties as one entity 
+---gorup of property names and property values as one entity
+---group of data and functonality as one entity
+
+let emloyee = {};  // empty object 
+let employee = {   name: 'Ravi"
+                   salary:45000,
+                   loc:"Bangalore"
+                   is_Avail:true
+                }; 
+
+Note: Duplicate properties are not allowed 
+Note: Indexing is not possbile 
