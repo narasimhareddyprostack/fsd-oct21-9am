@@ -1,0 +1,5 @@
+>npm init -y 
+
+>npm i bcryptjs
+ 
+instaleed bcryptjs in your project node_modules folder
