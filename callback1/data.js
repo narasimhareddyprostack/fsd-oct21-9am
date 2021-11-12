@@ -1,3 +1,4 @@
+//call back example
 let data = [
   { name: "Ravi", sal: 45000, loc: "Bangalore" },
   { name: "Raj Kumar", sal: 55000, loc: "Chennai" },
