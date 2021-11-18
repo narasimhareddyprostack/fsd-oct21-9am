@@ -23,8 +23,8 @@ let getEmployee = () => {
     document.getElementById("tbody").innerHTML = rows;
   }, 1000);
 };
-let execute = async () => {
-  await createEmployee({ id: 103, name: "Sonia", sal: 66666 });
-  getEmployee();
-};
-execute();
+createEmployee({ id: 103, name: "Sonia Gandhi", sal: null })
+  .then(() => {
+    getEmployee();
+  })
+  .catch(() => {});
